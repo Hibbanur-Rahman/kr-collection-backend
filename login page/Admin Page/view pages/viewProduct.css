@@ -1,0 +1,48 @@
+.productView{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 40px;
+}
+.productView h3{
+    text-align: left;
+    font-size: 33px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.productView table{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-spacing:0px ;
+    border: 0 px solid grey;
+    box-shadow: 2px 2px 11px 6px rgb(211, 210, 210);
+}
+
+.productView table tr{
+    width: 100%;
+}
+.productView table tr:nth-child(odd){
+    background-color: rgb(235, 253, 226);
+}
+.productView table tr:nth-child(1){
+    background-color: #212429;
+    color: white;
+    height: 50px;
+}
+.productView table th{
+    font-size: 20px;
+}
+.productView table td{
+    width: 18%;
+    border: 0px;
+    padding: 10px;
+}
+.productView table td img{
+    width: 100%;
+    height: 150px;
+}

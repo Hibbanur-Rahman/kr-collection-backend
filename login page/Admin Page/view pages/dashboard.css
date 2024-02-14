@@ -1,0 +1,30 @@
+.dashboard {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.dashboard .card {
+    width: 20%;
+    height: auto;
+    background-color: #212429;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 10px 4px 4px rgb(203, 201, 201);
+    padding: 30px;
+
+}
+
+.dashboard .card i {
+    font-size: 66px;
+    color: #c1bdbd;
+    padding-bottom: 30px;
+}
+
+.dashboard .card h1 {
+    font-size: 28px;
+    padding-bottom: 20px;
+}

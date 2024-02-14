@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.login{
+    width:40% ;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow:3px 5px 22px 6px rgb(224, 222, 222);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 150px;
+    padding-top: 20px;
+}
+
+.login input{
+    width: 90%;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 6px 18px 7px rgb(239, 237, 237);
+    margin-top: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.login input::placeholder{
+    color: grey;
+    padding-left: 40px;
+}
+.login input:focus{
+    outline: none;
+}
+.login button{
+    width: 70px;
+    border-radius: 5px;
+    background-color: rgb(130, 150, 241);
+    border: none;
+    height: 40px;
+    margin-top: 30px;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+.login button:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(53, 250, 53);
+}
+.login .lower{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.login .forget{
+    width: 50%;
+    display: flex;
+    align-items: end;
+}
+.login .forget a{
+    text-decoration: none;
+    color: grey;
+}
+.login .signup{
+    width: 50%;
+    display: flex;
+}
+.login .signup a{
+    width: 100%;
+    text-align: right;
+    text-decoration: none;
+    color: grey;
+}
